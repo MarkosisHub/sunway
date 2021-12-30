@@ -1,0 +1,121 @@
+.newsAndSocialEventSection {
+  background-color: #F1F1F1;
+  padding: 7rem 0;
+}
+
+.newsAndSocialEventDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30rem;
+}
+
+.newsEventDetailsWrapper > h3, .socialEventsDetailsWrapper > h3 {
+  font-weight: 500;
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 5rem;
+}
+
+.socialEventsDetailsWrapper > h3 {
+  text-align: right;
+}
+
+.singlNewsEventDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+  background-color: #FEFEFE;
+}
+
+.singlNewsEventContent {
+  padding: 1.5rem;
+}
+
+.singlNewsEventContent .date {
+  color: #376FFF;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.singlNewsEventContent h5 {
+  font-weight: 600;
+  color: #242934;
+  margin-bottom: 0.5rem;
+}
+
+.singlNewsEventContent p {
+  color: #7E7F81;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+
+.singlNewsEventContent a {
+  text-decoration: none;
+  color: #376FFF;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.singlNewsEventContent a i {
+  margin-left: 0.3rem;
+}
+
+.singleSocialEventsDetails {
+  margin-bottom: 3rem;
+}
+
+.singleSocialEventsContent {
+  display: flex;
+  background-color: #FEFEFE;
+  border-radius: 5px;
+}
+
+.singleSocialEventsContentLeft {
+  text-align: center;
+  background-color: #193682;
+  border-radius: 5px 0 0 5px;
+  padding: 2rem 3rem;
+}
+
+.singleSocialEventsContentLeft i {
+  color: #ECEDEF;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.singleSocialEventsContentLeft h6 {
+  color: #ECEDEF;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.singleSocialEventsContentLeft p {
+  color: #ECEDEF;
+  font-size: 1.2rem;
+}
+
+.singleSocialEventsContentRight {
+  padding: 2rem 3rem;
+}
+
+.singleSocialEventsContentRight h4 {
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.singleSocialEventsContentRight a {
+  text-decoration: none;
+  color: #376FFF;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.singleSocialEventsContentRight a i {
+  margin-left: 0.3rem;
+}

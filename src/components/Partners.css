@@ -1,0 +1,29 @@
+.partnersSection {
+  background-color: #E7E9EE;
+  padding: 7rem;
+}
+
+.partnersContent {
+  text-align: center;
+}
+
+.partnersContent img {
+  width: 60%;
+  height: 10rem;
+  object-fit: contain;
+}
+
+.partnersContent h3 {
+  font-weight: 500;
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+}
+
+.partnersContent button {
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  margin-top: 4rem;
+  background-color: #242934;
+}

@@ -1,0 +1,61 @@
+.headerTopSection {
+  background-color: #ECEDEF;
+  padding: 2rem 0;
+}
+
+.headerTopContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTopLogo a {
+  display: block;
+}
+
+.headerTopLogo a img {
+  width: 15rem
+}
+
+.headerTopForm {
+  flex: 0.7;
+  position: relative;
+}
+
+.headerTopForm input {
+  width: 100%;
+  padding: 0.7rem 0;
+  color: #000;
+  font-size: 1.4rem;
+  font-family: inherit;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #CDCFD3;
+}
+
+.headerTopForm input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #8C8D8F;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.headerTopForm span {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  color:#8C8D8F;
+  font-weight: 300;
+}
+
+.headerTopSession a {
+  text-decoration: none;
+  border: 1px solid #202A49;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  color: #202A49;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.4rem;
+}

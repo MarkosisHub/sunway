@@ -1,0 +1,29 @@
+.homeBannerSection {
+  background-color: #E2E4E8;
+  /* padding: 5rem 0; */
+}
+
+.homeBannerSection .homeBannerContent {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 5rem;
+}
+
+.homeBannerContentRight img {
+  width: 80%;
+}
+
+.homeBannerContent h1 {
+  color: #242934;
+  line-height: 1.4;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.homeBannerContent p {
+  font-size: 1.6rem;
+  color: #7E7F81;
+  margin-bottom: 3rem;
+}

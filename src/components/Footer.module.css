@@ -1,0 +1,139 @@
+.footerSection {
+  background-color: #E1E3E8;
+  position: relative;
+}
+
+.ebookDownloadWrapper {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #202A49;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.ebookDownloadContent {
+  width: 60%;
+  margin: 0 auto;
+  padding: 7rem 0;
+}
+
+.ebookDownloadContent h3 {
+  font-weight: 500;
+  color: #ECEDEF;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.ebookDownloadContent p {
+  color: #CDCFD3;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.ebookForm input {
+  width: 100%;
+  background-color: #364266;
+  border: 0;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  color: #ECEDEF;
+  font-size: 1.4rem;
+}
+
+.ebookForm {
+  position: relative;
+}
+
+.ebookForm input::placeholder {
+  color: #CACDD5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
+.ebookForm button {
+  position: absolute;
+  top: 0.43rem;
+  right: 0.3rem;
+  padding: 1rem 3rem;
+  background-color: #ECEDEF;
+  color: #202A49;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footerTopContent {
+  padding: 25rem 0 7rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+.footerTopContent img {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.footerTopContent p {
+  color: #242934;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.footerTopContent h6 {
+  text-transform: capitalize;
+  color: #383949;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footerTopContent ul {
+  list-style-type: none;
+}
+
+.footerTopContent ul li {
+  margin-bottom: 1rem;
+}
+
+.footerTopContent ul li:last-child {
+  margin-bottom: 1rem;
+}
+
+.footerTopContent ul li a {
+  text-transform: capitalize;
+  display: block;
+  text-decoration: none;
+  color: #383949;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.footerBottom {
+  border-top: 1px solid #CDCFD3;
+  padding: 2rem;
+}
+
+.footerBottomContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerBottomContent p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #202A49;
+}
+
+.footerSocialMediaList {
+  text-align: right;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footerSocialMediaList li:not(:first-child) {
+  margin-left: 5rem;
+}

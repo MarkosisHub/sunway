@@ -1,0 +1,27 @@
+.navbarSection {
+  background-color: #202A49;
+  padding: 1rem 0;
+}
+
+.navbarContent {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbarContent li a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #7E7F81;
+  font-weight: 500;
+  padding: 0.7rem 2rem;
+  border-radius: 3px;
+}
+
+.navbarContent li a:hover {
+  background-color: #3F4762;
+  color: #ECEDEF;
+}

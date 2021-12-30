@@ -1,0 +1,46 @@
+.aboutAdmissionSection {
+  background-color: #1E2230;
+  padding: 10rem 0;
+}
+
+.aboutAdmissionContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  grid-gap: 10rem;
+}
+
+.aboutAdmissionContentLeft h4 {
+  font-weight: 500;
+  color: #ECEDEF;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.aboutAdmissionContentLeft .pera {
+  color: #7E7F81;
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+
+
+.aboutAdmissionContentLeft .highlight {
+  color: #CDCFD3;
+  font-size: 2.3rem;
+  margin-bottom: 5rem;
+}
+
+.aboutAdmissionContentLeft  a {
+  text-decoration: none;
+  border: 1px solid #ECEDEF;
+  font-size: 1.8rem;
+  padding: 1.3rem 3rem;
+  border-radius: 5px;
+  font-family: inherit;
+  color: #ECEDEF;
+  font-weight: 500;
+}
+
+.aboutAdmissionContentRight img {
+  width: 100%;
+}

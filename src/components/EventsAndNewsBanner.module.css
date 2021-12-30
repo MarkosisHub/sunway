@@ -1,0 +1,12 @@
+.eventsAndNewsBannerSection {
+  padding: 10rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eventsAndNewsBannerDetails h3 {
+  color: #ECEDEF;
+  font-weight: 600;
+  width: 60%;
+  line-height: 1.6;
+}

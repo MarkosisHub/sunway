@@ -1,0 +1,84 @@
+.upcommingEventsSection {
+  background-color: #F1F1F1;
+  padding: 7rem 0;
+}
+
+.upcommingEventsWrapper > p {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #9B9C9E;
+  margin-bottom: 5rem;
+}
+
+.viewBtnWrapper {
+  text-align: center;
+}
+
+.viewBtnWrapper > button {
+  border: 0;
+  background-color: #202A49;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 1.5rem 3rem;
+  text-transform: uppercase;
+  color: #DFE1E5;
+  font-family: inherit;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.upcommingEventsWrapper > h3 {
+  font-weight: 500;
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.upcommingEventsDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8rem;
+}
+
+.singleUpcommingEventsDetails img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.singleUpcommingEvents {
+  background-color: #FEFEFE;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.singleUpcommingEvents .date {
+  color: #376FFF;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.singleUpcommingEvents p {
+  color: #8E8F90;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.singleUpcommingEvents h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.singleUpcommingEvents a {
+  text-decoration: none;
+  color: #376FFF;
+  font-weight: 600;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,50 @@
+.programSection {
+  background-color: #F1F1F1;
+  padding: 7rem 0;
+}
+
+.programWrapper > p {
+  color: #868687;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #858688;
+  margin-bottom: 5rem;
+}
+
+.programWrapper > h3 {
+  font-weight: 500;
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.programDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10rem;
+}
+
+.singleProgramDetails img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.singleProgramContent {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.singleProgramContent h5 {
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.singleProgramContent p {
+  color: #8E8F90;
+  font-size: 1.4rem;
+}

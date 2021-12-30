@@ -1,0 +1,42 @@
+.achievementSection {
+  background-color: #1E2230;
+  padding: 7rem 0;
+  text-align: center;
+}
+
+.achievementWrapper > p {
+  color: #868687;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #CDCFD3;
+  margin-bottom: 5rem;
+}
+
+.achievementWrapper > h3 {
+  font-weight: 500;
+  color: #ECEDEF;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.achievementDetails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10rem;
+}
+
+.singleAchievementDetails h1 {
+  color: #ECEDEF;
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.singleAchievementDetails p {
+  color: #B7B9BF;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}

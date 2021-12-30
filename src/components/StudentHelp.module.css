@@ -1,0 +1,45 @@
+.studentHelpSection {
+  background-color: #E7E9EE;
+  padding: 7rem;
+  text-align: center;
+}
+
+.studentHelpWrapper > p {
+  color: #868687;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  color: #858688;
+  margin-bottom: 5rem;
+}
+
+.studentHelpWrapper > h3 {
+  font-weight: 500;
+  color: #242934;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.studentHelpDetails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10rem;
+}
+
+.singleStudentHelpDetails img {
+  margin-bottom: 1.5rem;
+}
+
+.singleStudentHelpDetails h6 {
+  text-transform: capitalize;
+  color: #242934;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.singleStudentHelpDetails p {
+  color: #98999C;
+  font-size: 1.4rem;
+}

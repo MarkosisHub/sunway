@@ -1,0 +1,80 @@
+.contactSection {
+  background-color: #f1f1f1;
+  padding-top: 7rem;
+  padding-bottom: 25rem;
+}
+
+.contactDetails {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contactDetails h3 {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 500;
+  color: #242934;
+  margin-bottom: 2rem;
+}
+
+.contactDetails p {
+  color: #7E7F81;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+}
+
+.contactForm {
+  padding-top: 5rem;
+}
+
+.contactForm label {
+  color: #34373F;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  border: 1px solid #DDE5E9;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  color: #34373F;
+}
+
+.contactForm select {
+  width: 100%;
+  border: 1px solid #DDE5E9;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  padding: 1.2rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  color: #34373F;
+}
+
+.formGroupBtn {
+  text-align: center;
+}
+
+.formGroupBtn button {
+  background-color: #242934;
+  color: #ECEDEF;
+}
+
+.contactForm input::placeholder, 
+.contactForm textarea::placeholder, .contactForm select {
+  font-family: "Poppins", sans-serif;
+  color: #7E7F81;
+}
